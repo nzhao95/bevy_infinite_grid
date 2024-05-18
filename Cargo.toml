@@ -15,7 +15,7 @@ keywords = ["bevy"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = { git = "https://github.com/nzhao95/bevy", default-features = false, features = [
+bevy = { git = "https://github.com/nzhao95/bevy", branch = "nzhaodev_13.2", default-features = false, features = [
     "bevy_render",
     "bevy_core_pipeline",
     "bevy_pbr",
@@ -23,7 +23,7 @@ bevy = { git = "https://github.com/nzhao95/bevy", default-features = false, feat
 ] }
 
 [dev-dependencies]
-bevy = { git = "https://github.com/nzhao95/bevy", default-features = false, features = [
+bevy = { git = "https://github.com/nzhao95/bevy", branch = "nzhaodev_13.2", default-features = false, features = [
     "bevy_winit",
     "x11",
     "tonemapping_luts",
